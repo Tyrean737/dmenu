@@ -1,3 +1,16 @@
+This diff file can be used on the standard dmenu-4.9 version from 'tools.suckless.org/dmenu'.
+It includes the 'dmenu-caseinsensitive-20200523-db6093f.diff', 'dmenu-rejectnomatch-4.7.diff', 'dmenu-xresources-4.9.diff' and 'dmenu-password-4.9.diff' patches.
+
+Does NOT include custumizations like color/font size.
+
+Created via:
+	diff -ruN orig-dmenu-4.9/ modified-dmenu-4.9/
+
+Applying with:
+	cd orig-dmenu-4.9/
+	patch < PATH_TO/dmenu-main-patches.diff
+
+
 diff -ruN orig/config.h dmenu-4.9/config.h
 --- orig/config.h	1970-01-01 01:00:00.000000000 +0100
 +++ dmenu-4.9/config.h	2020-08-09 16:47:34.186623710 +0200
